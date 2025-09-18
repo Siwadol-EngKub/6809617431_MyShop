@@ -1,1 +1,124 @@
+<!doctype html>
+<html lang="th">
 
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>MusicShop</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Kanit:wght@300;400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="mystyle.css" />
+</head>
+
+<body>
+  <!-- บาร์หัวข้อร้าน -->
+  <header class="site-header" role="banner">
+    <div class="container header-inner">
+      <a class="logo" href="#">Bless'sMusicShop🎹</a>
+      <nav class="nav" aria-label="เมนูหลัก">
+        <a href="#products">สินค้า</a>
+        <a href="#about">เกี่ยวกับเรา</a>
+        <a href="#contact">ติดต่อ</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- โปรโมตร้าน -->
+  <section class="hero">
+    <div class="container hero-inner">
+      <h1>เครื่องดนตรีคุณภาพ ราคาย่อมเยา</h1>
+      <p>กีตาร์ เปียโน กลอง ไวโอลิน และอุปกรณ์ครบครัน จัดส่งทั่วประเทศ</p>
+      <a class="btn" href="#products">ดูสินค้า</a>
+    </div>
+  </section>
+
+  <!-- สินค้า -->
+  <main id="products" class="container">
+    <h2 class="section-title">สินค้าแนะนำ</h2>
+    <div class="grid">
+      <!-- กีต้าร์ -->
+      <article class="card">
+        <img src="resources/guitar.jpg" alt="กีตาร์ สีไม้" />
+        <div class="card-body">
+          <h3>กีตาร์</h3>
+          <p class="muted">เสียงใส เล่นง่าย เหมาะสำหรับผู้เริ่มต้น</p>
+          <div class="price-row">
+            <span class="price">฿3,990</span>
+            <a href="#" class="btn btn-sm">หยิบใส่ตะกร้า</a>
+          </div>
+        </div>
+      </article>
+      <!-- เปียโน -->
+      <article class="card">
+        <img src="resources/piano.jpg" alt="เปียโนสีดำ" />
+        <div class="card-body">
+          <h3>เปียโนสีดำ</h3>
+          <p class="muted">คีย์น้ำหนักสมจริง มีเสียงหลากหลาย</p>
+          <div class="price-row">
+            <span class="price">฿12,500</span>
+            <a href="#" class="btn btn-sm">หยิบใส่ตะกร้า</a>
+          </div>
+        </div>
+      </article>
+      <!-- กลองชุด -->
+      <article class="card">
+        <img src="resources/drums.jpg" alt="กลองชุด" />
+        <div class="card-body">
+          <h3>กลองชุด</h3>
+          <p class="muted">ทนทาน ซาวด์แน่น เหมาะทั้งซ้อมและแสดงสด</p>
+          <div class="price-row">
+            <span class="price">฿15,900</span>
+            <a href="#" class="btn btn-sm">หยิบใส่ตะกร้า</a>
+          </div>
+        </div>
+      </article>
+      <!-- ไวโอลิน -->
+      <article class="card">
+        <img src="resources/violin.jpg" alt="ไวโอลิน" />
+        <div class="card-body">
+          <h3>ไวโอลิน</h3>
+          <p class="muted">ไม้คุณภาพ พร้อมคันชักและกล่อง</p>
+          <div class="price-row">
+            <span class="price">฿4,790</span>
+            <a href="#" class="btn btn-sm">หยิบใส่ตะกร้า</a>
+          </div>
+        </div>
+      </article>
+    </div>
+  </main>
+
+  <!-- ข้อมูลร้าน -->
+  <section id="about" class="container about">
+    <h2 class="section-title">เกี่ยวกับเรา</h2>
+    <p>
+      Bless's MusicShop คือร้านเครื่องดนตรีออนไลน์ที่คัดสรรสินค้าคุณภาพ พร้อมบริการหลังการขาย
+      สินค้าทุกชิ้นมีประกันและรับเปลี่ยนคืนภายใน 7 วัน
+    </p>
+  </section>
+
+  <!-- ไว้ติดต่อ -->
+  <section id="contact" class="contact">
+    <div class="container contact-inner">
+      <h2 class="section-title">ติดต่อเรา</h2>
+      <form class="contact-form" action="#" method="post">
+        <label>
+          ชื่อ
+          <input type="text" name="name" placeholder="Your name" />
+        </label>
+        <label>
+          อีเมล
+          <input type="email" name="email" placeholder="you@example.com" />
+        </label>
+        <label>
+          ข้อความ
+          <textarea name="message" rows="4" placeholder="ต้องการสอบถามสินค้า..."></textarea>
+        </label>
+        <button type="submit" class="btn">ส่งข้อความ</button>
+      </form>
+    </div>
+  </section>
+</body>
+
+</html>
+<!-- ที่มารูปภาพทั้งหมด https://www.istockphoto.com/th -->
